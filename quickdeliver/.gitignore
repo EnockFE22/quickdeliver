@@ -1,0 +1,39 @@
+# Arquivos e pastas do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Banco de dados SQLite local
+db.sqlite3
+
+# Arquivos temporários
+*.log
+*.pot
+*.pyc
+*.pkl
+*.tmp
+
+# Configurações locais / variáveis de ambiente
+.env
+*.env
+
+# Pasta de cache do Django
+/static/
+media/
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+
+# Arquivos de migração antigos (opcional se quiser limpar)
+*/migrations/__pycache__/
